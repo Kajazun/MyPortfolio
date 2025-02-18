@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Vol</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Music Vol</h1>
+        <div class="video-container">
+            <video controls class="project-media" width="500">
+                <source src="static/videos/Musicvol.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p>This program uses hand tracking with MediaPipe and adjusts the system volume based on the distance between the index finger and the thumb. The closer the fingers are, the lower the volume, and the farther apart they are, the higher the volume. It tracks hand landmarks in real-time through the webcam and provides visual feedback by drawing a rectangle around the tracked area and displaying the distance between the fingers. The program uses the PyCaw library to control the system's audio volume.
+
+
+
+
+
+
+
+        </p>
+        <a href="projects.html" class="back-button">Back to Projects</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

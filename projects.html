@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My Projects</h1>
+        <div class="projects-grid" id="projects-grid">
+            <!-- Projects will be dynamically loaded here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script>
+       fetch('static/projects.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(projects => {
+        const projectsGrid = document.getElementById('projects-grid');
+
+        projects.forEach((project, index) => {
+            const projectCard = `
+                <a href="project_${index}.html" class="project-card">
+                    <div class="card">
+                        <h2>${project.title}</h2>
+                        <img src="static/${project.image}" alt="${project.title}" class="project-thumbnail" height="200" width="200">
+                    </div>
+                </a>
+            `;
+            projectsGrid.innerHTML += projectCard;
+        });
+    })
+    .catch(error => {
+        console.error('Error loading projects:', error);
+        const projectsGrid = document.getElementById('projects-grid');
+        projectsGrid.innerHTML = '<p>Failed to load projects. Please try again later.</p>';
+    });
+    </script>
+</body>
+</html>
