@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Retromania Bot",
+        "description": "RetroMania Bot is your ultimate companion for navigating the unique ambiance of RetroMania Café in Gyumri. This bot provides quick and easy access to the café’s latest updates, special offers, and menu details. Whether you're a local or a tourist, RetroMania Bot ensures you never miss out on exciting events or exclusive promotions. Stay connected and make the most of your experience at RetroMania, where nostalgia meets modern vibes!",
+        "image": "images/retromania.jpg",
+        "video": "videos/Retromania.mp4"
+    },
+    {
+        "title": "Photo Bot",
+        "description": "barev",
+        "image": "images/images.png",
+        "video": "videos/Photobot.mp4"
+    },
+    {
+        "title": "Music Volume",
+        "description": "barev",
+        "image": "images/images1.jpg",
+        "video": "videos/Musicvol.mp4"
+    },
+    {
+        "title": "Crypto price prediction",
+        "description": "barev",
+        "image": "images/crypto.png",
+        "video": "videos/Crypto.mp4"
+    }
+    
+]

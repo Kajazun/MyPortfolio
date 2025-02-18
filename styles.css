@@ -1,0 +1,690 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Project Card */
+.project-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin: 0.5rem 0 0;
+    color: #cccccc;
+}
+
+/* Project Detail Page */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+
+/* Project Thumbnail */
+.project-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Project Detail Page */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero .tagline {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Skills Section */
+.skills {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #333;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+/* Contact Section */
+.contact {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0.5rem 0;
+}
+
+.social-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+.about {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    background-color: #333;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details li {
+    margin: 0.5rem 0;
+}
+
+.contact-details li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-details li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 4rem 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Skills Section */
+.skills {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #333;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0.5rem 0;
+}
+
+.social-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+
+/* About Hero Section */
+.about-hero {
+    padding: 4rem 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.about-hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-hero-text {
+    flex: 1;
+}
+
+.about-hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-hero-text .tagline {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 2rem;
+}
+
+.about-hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Details Section */
+.about-details {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.video-container {
+    width: 50%;
+    height: 1%; /* Fill the entire card */
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+video {
+    width: 50%;
+    height: 1%;
+    object-fit: cover;
+    object-position: center; /* Center the video */
+    border-radius: 8px;
+}
+
+/* Project Description Styling */
+.card p {
+    margin: 0.5rem 0 0;
+    color: #cccccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0.75rem;
+    background-color: #333;
+    border-radius: 4px;
+    border: 1px solid #444; /* Add border for better separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Project Card Hover Effect for Description */
+.card:hover p {
+    background-color: #444; /* Darken the description background on hover */
+    transform: scale(1.05); /* Slight scale effect when hovering */
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.project-card {
+    flex: 1 1 calc(33.333% - 1rem); /* 3 cards per row with gap */
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+/* Project Thumbnail */
+.project-thumbnail {
+    width: 50%; /* Ensure the image takes up the full width of the card */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Video Container */
+.video-container {
+    width: 100%; /* Ensure the video takes up the full width of the card */
+    height: 200px; /* Set a fixed height for all videos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Optional: Add a background color */
+    border-radius: 8px;
+    margin-top: 1rem;
+    overflow: hidden; /* Hide any overflow */
+}
+
+video {
+    width: 100%; /* Ensure the video fills the container */
+    height: 100%; /* Ensure the video fills the container */
+    object-fit: contain; /* Ensure the video is fully visible without cropping */
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card h2 {
+        font-size: 1.25rem;
+    }
+
+    .project-thumbnail, .video-container {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card h2 {
+        font-size: 1rem;
+    }
+
+    .project-thumbnail, .video-container {
+        height: 120px;
+    }
+}
