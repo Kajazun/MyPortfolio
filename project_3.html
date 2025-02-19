@@ -25,12 +25,14 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-<p></p>
+<p>This program predicts cryptocurrency prices using historical data and a GRU (Gated Recurrent Unit) neural network model. The process begins by downloading data for a specified cryptocurrency from Yahoo Finance. The data is then scaled using MinMaxScaler, and training and validation datasets are prepared. The GRU model is built with dropout layers to prevent overfitting and trained to predict the closing price of the cryptocurrency. The model is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score. Finally, the program predicts the next day's price and visualizes both the actual and predicted prices, displaying the prediction on a graph.
+
+    The model is optimized using the Adam optimizer with a low learning rate, and early stopping is implemented to halt training if the validation loss does not improve. Additionally, the program calculates and displays the accuracy of the model based on the MAE compared to the actual prices.</p>
       
         <a href="projects.html" class="back-button">Back to Projects</a>
     </main>
     <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
 </body>
 </html>
